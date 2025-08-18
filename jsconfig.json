@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "automation_panel/*": ["./src/*"]
+    }
+  }
+}
