@@ -31,15 +31,15 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f2027] via-[#2c5364] to-[#232526] font-sans flex flex-col items-center p-6">
       <header className="mb-10 text-center">
-        <h1 className="text-4xl font-extrabold text-cyan-400 mb-2 tracking-tight drop-shadow-lg">Automation Panel</h1>
-        <p className="text-lg text-gray-200 mb-4">Mural inovador de vídeos de automação e tecnologia</p>
-        <div className="flex justify-center gap-4 mt-2">
-          <a href="https://www.instagram.com/rafael.gsantos_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white px-4 py-2 rounded-full shadow hover:scale-105 transition-transform font-semibold flex items-center gap-2">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" className="w-5 h-5" />
+  <h1 className="text-4xl font-extrabold text-cyan-400 mb-2 tracking-tight drop-shadow-lg">Painel de Automação</h1>
+  <p className="text-lg text-gray-200 mb-4">Mural inovador de vídeos, dicas e tecnologia para automação</p>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-2 w-full">
+          <a href="https://www.instagram.com/rafael.gsantos_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition-transform font-semibold flex items-center gap-3 w-full sm:w-auto text-base">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" className="w-6 h-6" />
             Instagram: @rafael.gsantos_
           </a>
-          <a href="https://wa.me/5511960303166?text=menu" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-green-400 via-green-600 to-blue-600 text-white px-4 py-2 rounded-full shadow hover:scale-105 transition-transform font-semibold flex items-center gap-2">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-5 h-5" />
+          <a href="https://wa.me/5511960303166?text=menu" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-green-400 via-green-600 to-blue-600 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition-transform font-semibold flex items-center gap-3 w-full sm:w-auto text-base">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-6 h-6" />
             Rafael Assistente (WhatsApp)
           </a>
         </div>
