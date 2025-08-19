@@ -4,27 +4,33 @@ export default function Home() {
   const videos = [
     {
       title: "Automação YouTube #1",
-      url: "https://www.youtube.com/shorts/DEPwJq_2_t8",
-      embed: "https://www.youtube.com/embed/DEPwJq_2_t8",
+      url: "https://www.youtube.com/shorts/edv95JVtWMw",
+      embed: "https://www.youtube.com/shorts/edv95JVtWMw",
       cover: "/automation-cover1.jpg",
-    },
+    },    
     {
       title: "Automação YouTube #2",
-      url: "https://www.youtube.com/shorts/KvoKxY9JmcE",
-      embed: "https://www.youtube.com/embed/KvoKxY9JmcE",
+      url: "https://www.youtube.com/shorts/YzzVVvbBvkw",
+      embed: "https://www.youtube.com/shorts/YzzVVvbBvkw",
       cover: "/automation-cover2.jpg",
     },
     {
       title: "Automação YouTube #3",
-      url: "https://www.youtube.com/shorts/gt3onrCr2F4",
-      embed: "https://www.youtube.com/embed/gt3onrCr2F4",
+      url: "https://www.youtube.com/shorts/8xcGUefqns0",
+      embed: "https://www.youtube.com/shorts/8xcGUefqns0",
       cover: "/automation-cover3.jpg",
     },
     {
       title: "Automação YouTube #4",
-      url: "https://www.youtube.com/shorts/Ua9xjUDwM5E",
-      embed: "https://www.youtube.com/embed/Ua9xjUDwM5E",
+      url: "https://www.youtube.com/shorts/NpnPs1zGRTg",
+      embed: "https://www.youtube.com/shorts/NpnPs1zGRTg",
       cover: "/automation-cover4.jpg",
+    },
+    {
+      title: "Automação YouTube #5",
+      url: "https://www.youtube.com/shorts/E4cUgc6WX0E",
+      embed: "https://www.youtube.com/shorts/E4cUgc6WX0E",
+      cover: "/automation-cover5.jpg",
     },
   ];
 
@@ -33,6 +39,7 @@ export default function Home() {
       <header className="mb-10 text-center">
   <h1 className="text-4xl font-extrabold text-cyan-400 mb-2 tracking-tight drop-shadow-lg">Painel de Automação</h1>
   <p className="text-lg text-gray-200 mb-4">Mural inovador de vídeos, dicas e tecnologia para automação</p>
+  <div className="mb-4 text-sm text-yellow-300 font-semibold italic drop-shadow-lg">Rafael acredita que tecnologia deve simplificar, não complicar!</div>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-2 w-full">
           <a href="https://www.instagram.com/rafael.gsantos_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition-transform font-semibold flex items-center gap-3 w-full sm:w-auto text-base">
             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" className="w-6 h-6" />
