@@ -5,31 +5,31 @@ export default function Home() {
     {
       title: "Automação YouTube #1",
       url: "https://www.youtube.com/shorts/edv95JVtWMw",
-      embed: "https://www.youtube.com/shorts/edv95JVtWMw",
+      embed: "https://www.youtube.com/embed/edv95JVtWMw",
       cover: "/automation-cover1.jpg",
     },    
     {
       title: "Automação YouTube #2",
       url: "https://www.youtube.com/shorts/YzzVVvbBvkw",
-      embed: "https://www.youtube.com/shorts/YzzVVvbBvkw",
+      embed: "https://www.youtube.com/embed/YzzVVvbBvkw",
       cover: "/automation-cover2.jpg",
     },
     {
       title: "Automação YouTube #3",
       url: "https://www.youtube.com/shorts/8xcGUefqns0",
-      embed: "https://www.youtube.com/shorts/8xcGUefqns0",
+      embed: "https://www.youtube.com/embed/8xcGUefqns0",
       cover: "/automation-cover3.jpg",
     },
     {
       title: "Automação YouTube #4",
       url: "https://www.youtube.com/shorts/NpnPs1zGRTg",
-      embed: "https://www.youtube.com/shorts/NpnPs1zGRTg",
+      embed: "https://www.youtube.com/embed/NpnPs1zGRTg",
       cover: "/automation-cover4.jpg",
     },
     {
       title: "Automação YouTube #5",
       url: "https://www.youtube.com/shorts/E4cUgc6WX0E",
-      embed: "https://www.youtube.com/shorts/E4cUgc6WX0E",
+      embed: "https://www.youtube.com/embed/E4cUgc6WX0E",
       cover: "/automation-cover5.jpg",
     },
   ];
