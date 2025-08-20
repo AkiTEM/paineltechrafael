@@ -274,17 +274,22 @@ export default function Home() {
   <h1 className="text-4xl font-extrabold text-cyan-400 mb-2 tracking-tight drop-shadow-lg">Painel de Automação</h1>
   <p className="text-lg text-gray-200 mb-4">Mural de vídeos com dicas de tecnologia para automação</p>
   <div className="mb-4 text-sm text-yellow-300 font-semibold italic drop-shadow-lg">Rafael acredita que tecnologia deve simplificar, não complicar!</div>
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-2 w-full">
-          <a href="https://www.instagram.com/rafael.gsantos_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition-transform font-semibold flex items-center gap-3 w-full sm:w-auto text-base">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" className="w-6 h-6" />
-            Instagram: @rafael.gsantos_
-          </a>
-          <a href="https://wa.me/5511960303166?text=menu" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-green-400 via-green-600 to-blue-600 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition-transform font-semibold flex items-center gap-3 w-full sm:w-auto text-base">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-6 h-6" />
-            Rafael Assistente (WhatsApp)
-          </a>
+        <div className="flex flex-col sm:flex-row justify-center items-start gap-4 mt-2 w-full">
+          <div className="w-full sm:w-auto flex flex-col items-center">
+            <a href="https://www.instagram.com/rafael.gsantos_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition-transform font-semibold flex items-center gap-3 w-full sm:w-auto text-base mb-2">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" className="w-6 h-6" />
+              Instagram: @rafael.gsantos_
+            </a>
+            <div className="text-sm text-gray-300 text-center max-w-xs break-words leading-snug">Também é possível assistir os vídeos no Instagram! <span className="text-cyan-400">(Clique para acessar)</span></div>
+          </div>
+          <div className="w-full sm:w-auto flex flex-col items-center">
+            <a href="https://wa.me/5511960303166?text=menu" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-green-400 via-green-600 to-blue-600 text-white px-6 py-3 rounded-full shadow hover:scale-105 transition-transform font-semibold flex items-center gap-3 w-full sm:w-auto text-base mb-2">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-6 h-6" />
+              Rafael Assistente (WhatsApp)
+            </a>
+            <div className="text-sm text-green-300 text-center max-w-xs break-words leading-snug">Conheça o robô assistente do Rafael!<br/>Tire dúvidas, peça dicas e descubra automações incríveis direto no WhatsApp 🚀🤖</div>
+          </div>
         </div>
-        <div className="mt-4 text-sm text-gray-300">Também é possível assistir os vídeos no Instagram! <span className="text-cyan-400">(Clique nos botões acima para acessar)</span></div>
       </header>
       <main className="w-full max-w-5xl grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         {videos.map((video, idx) => (
